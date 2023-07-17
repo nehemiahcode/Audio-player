@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+    overflow-x: hidden;
+ scroll-behavior: smooth;
+  background-color:  rgb(30 41 59);
+  user-select: none;
+}
