@@ -57,7 +57,7 @@ function Audio() {
   useEffect(() => {
     const Time = setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 9000);
     return () => clearTimeout(Time);
   });
 
